@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&family=Roboto&family=Ubuntu&display=swap');
+
+
+/* For Webkit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #007c6519; /* Set the color of the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #121212; /* Set the color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #00CBB0; /* Set the color of the thumb on hover */
+  }
+    
+.flex-container {
+    display: flex;
+    background-color: rgb(128, 255, 30);
+    justify-content: center;
+}
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+  body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: #121212;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box1 {
+    
+    border: 10px solid #121212;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: #00CBB0;
+    border-radius: 50px;
+    
+}
+
+.box2 {
+    
+    border: 10px solid #121212;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: #3C81DC;
+    border-radius: 50px;
+    
+}
+
+.box3 {
+    
+    border: 10px solid #121212;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: #1A2531;
+    border-radius: 50px;
+    
+}
+
+.box1, .box2, .box3{
+   height: 160px;
+   width: 140px;
+}
+
+footer {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+body{
+    background-color: #121212;
+}
+
+.grnn{
+    color: #007C65;
+}
+
+.cntr{
+    text-align: center;
+}
+
+.grey{
+    color: #949494;
+}
+
+.pas{
+
+    display: flex;
+
+    margin-left: 200px;
+}
+
+#korseyya{
+    margin-left: 40px;
+}
+
+.hmm{
+
+    display: flex;
+    background-color: #007c656c;
+    color: #fff;
+    font-family: 'Roboto';
+    height: 600px;
+    overflow: hidden;
+
+}
+
+.anh {
+
+    text-align: center;
+    background-color: #152B2A;
+    width: 50%;
+
+}
+
+.an{
+
+    width: 50%;
+    background-color: #152B2A;
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+
+
+}
+
+#a3tehaid{
+
+    position: relative;
+    top: 120px;
+   
+}
+
+.anh h2{
+    
+    color: #006F57;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.oohnice1{
+
+    display: flex;
+    width: 180px;
+    height: 198px;
+    background-color: #121212 ;
+    border-radius: 20px;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.oohnice1 p{
+
+    color: #007C65;
+}
+
+#usls{
+
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    
+}
+
+#usls h1{
+
+    color: #007C65;
+    margin-top: 0%;
+}
+
+.imagesofplaces{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nextto{
+
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.white{
+
+    color: #fff;
+    margin-top: 100px;
+
+}
+
+.middle{
+
+    text-align: center;
+
+}
